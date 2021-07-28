@@ -3,22 +3,22 @@ name: issue template_Found issue
 about: use this template when you find a problem
 ---
 ### Problem Description
-    description：
+>description：
 
-    Screenshots：
+>Screenshots：
 
 
 ### Environmental information
-    operating system：
+>operating system：
 
-    service：
+>service：
 
-    Code version：
+>Code version：
 
 
 ### Steps to reproduce
-    1、
+>1、
 
-    2、
+>2、
 
-    3、
+>3、

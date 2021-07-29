@@ -1,27 +1,20 @@
 ---
-name: PULL_REQUEST_TEMPLATE
+name: PULL_REQUEST_TEMPLATE     
 about: use this template when you pull request 
 ---
 * **Please check if the PR fulfills these requirements**
-- [ ] The commit message follows our guidelines
-- [ ] Tests for the changes have been added (for bug fixes / features)
-- [ ] Docs have been added / updated (for bug fixes / features)
+- [ ] make fmt
+- [ ] make lint && make test
 
 
-* **What kind of change does this PR introduce?** (Bug fix, feature, docs update, ...)
-
-
-
-* **What is the current behavior?** (You can also link to an open issue here)
+* **The issue corresponding to this PR** 
 
 
 
-* **What is the new behavior (if this is a feature change)?**
+* **The main content of this PR change** 
 
 
 
-* **Does this PR introduce a breaking change?** (What changes might users need to make in their application due to this PR?)
+* **Whether the documentation、 the test are complete, and the related web links**
 
 
-
-* **Other information**:

@@ -7,7 +7,7 @@ import os
 #指定服务地址
 print('fns setup -S https://prod-testnet.prod.findora.org')
 os.system('fns setup -S https://prod-testnet.prod.findora.org')
-walletkey = open('/home/ubuntu/testscript/walletkey.txt', 'w')
+walletkey = open('/home/admin/testscript/walletkey.txt', 'w')
 print('创建压力测试钱包信息中...请等待...')
 for i in range(2000):
     output = os.popen('fns genkey')
@@ -15,9 +15,9 @@ for i in range(2000):
 walletkey.close()
 
 # 遍历文件
-file_object = open('/home/ubuntu/testscript/walletkey.txt', 'r')
-pub_key = open('/home/ubuntu/testscript/pub_key.txt', 'w')
-sec_key = open('/home/ubuntu/testscript/sec_key.txt', 'w')
+file_object = open('/home/admin/testscript/walletkey.txt', 'r')
+pub_key = open('/home/admin/testscript/pub_key.txt', 'w')
+sec_key = open('/home/admin/testscript/sec_key.txt', 'w')
 try:
     for line in file_object:
         if line[3:10] == 'pub_key':
